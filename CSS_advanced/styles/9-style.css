@@ -1,5 +1,6 @@
 /* set colors and display to elements and classes */
 a{
+    text-decoration: none;
 }
 
 body{
