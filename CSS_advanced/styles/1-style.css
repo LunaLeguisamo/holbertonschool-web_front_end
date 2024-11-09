@@ -1,0 +1,5 @@
+/* Set the scroll to the html */
+html {
+    scroll-behavior: smooth;
+  }
+  
