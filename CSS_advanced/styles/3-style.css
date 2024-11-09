@@ -1,4 +1,15 @@
-/* Set the root */
+/* set colors and display to elements and classes */
+a {
+    color: #161616;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category, .section-tagline{
+    color: #D73953;
+}
 :root {
     --font-size-medium: 1.6rem;
     --font-size-small: 1.2rem;
@@ -12,5 +23,6 @@
   }
 
   body {
+    color: #161616;
     font-size: var(--font-size-medium);
   }
