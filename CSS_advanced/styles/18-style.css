@@ -150,7 +150,8 @@ html {
 
 .nav .nav-link {
     display: block;
-    padding: 50%;
+    padding-top: 50%;
+    padding-bottom: 50%;
 }
 
 .nav .nav-link:hover {
