@@ -40,6 +40,11 @@ body{
 
 .section-header {
     text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
+}
+
+.section-body {
+    padding: var(--section-body-padding);
 }
 
 .section-title {
@@ -48,6 +53,11 @@ body{
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
+}
+
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
 }
 
 .section-tagline{
@@ -109,4 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
