@@ -102,7 +102,7 @@ body{
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%;
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 3rem 0 0;
     --nav-item-link-hover: var(--color-primary);
@@ -150,8 +150,8 @@ html {
 
 .nav .nav-link {
     display: block;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .nav .nav-link:hover {
